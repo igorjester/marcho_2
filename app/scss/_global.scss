@@ -1,12 +1,19 @@
-body{
+body {
   color: $default;
   font-size: 16px;
   line-height: 26px;
   @extend %quicksad-500;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+a {
+  color: $default;
+  font-size: 16px;
+  line-height: 26px;
+  @extend %quicksad-500;
 }

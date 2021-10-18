@@ -1,5 +1,5 @@
 html,
-body{
+body {
   height: 100%;
 }
 
@@ -12,7 +12,7 @@ body {
   @extend %quicksad-500;
 }
 
-.main{
+.main {
   flex-grow: 1;
 }
 
@@ -27,4 +27,20 @@ a {
   font-size: 16px;
   line-height: 26px;
   @extend %quicksad-500;
+}
+
+.title {
+  text-align: center;
+  @extend %roboto-700;
+  font-size: 48px;
+  line-height: 65px;
+  color: $title;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+  max-width: 570px;
+  margin: 0 auto 55px;
 }
